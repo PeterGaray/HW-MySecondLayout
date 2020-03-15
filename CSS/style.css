@@ -1,0 +1,237 @@
+.header-body-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* .content {
+   max-width: 900px;
+  }*/
+
+.header {
+    display: flex;
+}
+
+.header-image-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-name {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: "Raleway";
+    float: left;
+    color: black;
+    opacity: 60%;
+    margin-left: 16px;
+}
+
+:hover.header-name {
+    color: #ff7d51;
+    cursor: pointer;
+}
+
+:hover.header-image {
+    cursor: pointer;
+}
+
+.header-nav-container {
+    display: flex;
+    max-width: 1080px;
+    justify-content: center;
+}
+
+.header-nav {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: black;
+    line-height: 31px;
+    margin-left: 16px;
+}
+
+:hover.header-nav {
+    color: #ff7d51;
+    cursor: pointer;
+}
+
+.outer-frame {
+    flex: 1;
+}
+
+.mylogoimage {
+    margin-left: 240px;
+    padding-top: 24px;
+    height: 350px;
+    width: 350px;
+    bottom: 0;
+    right: 36px;
+}
+
+.introduction-section {
+    margin-top: 24px;
+    padding: 12px 0;
+    height: 425px;
+    background-color: #f7e5de65;
+}
+
+.myimage {
+    padding-left: 72px;
+    height: 465px;
+    width: 700px;
+    bottom: 0;
+    right: 0;
+}
+
+.paragraph {
+    padding-bottom: 12px;
+    font-family: 'Oswald', Georgia, serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.title {
+    color: #442f56;
+    font-size: 36px;
+    font-family: 'Raleway', "Helvetica Neue", sans-serif;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.introduction-section {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 24px;
+}
+
+.projectSection {
+    padding: 48px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+}
+
+.video-section {
+    margin-top: 24px;
+    padding: 12px 0;
+    height: 425px;
+    background-color: #c4d3dc7e;
+}
+
+.myvideo {
+    padding-left: 72px;
+    height: 400px;
+    width: 700px;
+    bottom: 0;
+    right: 0;
+}
+
+.title2 {
+    color: #442f56;
+    font-size: 36px;
+    font-family: 'Raleway', "Helvetica Neue", sans-serif;
+    padding-bottom: 12px;
+    padding-top: 24px;
+}
+
+.paragraph2 {
+    padding-bottom: 12px;
+    font-family: 'Oswald', serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.paragraph4 {
+    padding-bottom: 12px;
+    font-family: 'Oswald', Georgia, serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.how-section {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 24px;
+    margin-top: 24px;
+    padding: 12px 0;
+    height: 425px;
+    background-color: #f7e5de4d;
+}
+
+.myhowimage {
+    padding-left: 72px;
+    max-height: 400px;
+    max-width: 600px;
+    bottom: 0;
+    right: 0;
+}
+
+.redesign-section {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    margin-top: 24px;
+    padding: 12px 0;
+    height: 425px;
+    background-color: white;
+}
+
+.css-is-deranged {
+    font-size: 14px;
+    color: #442f56;
+}
+
+.content-footer {
+    text-align: center;
+    margin-top: 140px;
+    padding: 12px 0;
+    text-align: center;
+    height: 75px;
+    background-color: #c4d3dc;
+    font-family: "Roboto", Georgia, serif;
+}
+
+:hover.css-is-deranged {
+    color: #ff7d51;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social>li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.content-footer>p {
+    color: #643969;
+}
+
+a {
+    font-weight: bold;
+    color: #643969;
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1440px) {
+    .introduction-section .video-section .mylogoimage .title .paragraph .projectSection .paragraph2 {
+        position: relative;
+        margin: 20px;
+        font-size: 12px;
+        display: inline;
+    }
+    .myvideo .myhowimage{
+        height: auto;
+        max-width: 100%;
+        max-width: 280px;
+    }
+}
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;*/
