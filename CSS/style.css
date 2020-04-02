@@ -216,18 +216,19 @@ a {
 
 
 @media all and (min-width: 600px) and (max-width: 1440px) {
-    .introduction-section .video-section .mylogoimage .title .paragraph .projectSection .paragraph2 {
+    .introduction-section, .video-section, .mylogoimage, .title, .paragraph, .projectSection, .paragraph2 {
         position: relative;
         margin: 20px;
         font-size: 12px;
         display: inline;
     }
-    .myvideo .myhowimage{
+    .myvideo, .myhowimage{
         height: auto;
         max-width: 100%;
         max-width: 280px;
     }
 }
+
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'PT Sans', sans-serif;
